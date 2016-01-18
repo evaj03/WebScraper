@@ -32,10 +32,11 @@ mvn test
 ```
 
 ### Application
-To run the application using the pre-built .jar file:
+To run the application using the pre-built `.jar` file (which can be found under Releases on the GitHub project.):
 ```sh
-java -jar .\target\web-scraper-jar-with-dependencies.jar
+java -jar .\web-scraper-jar-with-dependencies.jar
 ```
+To build the application from source, see next section.
 
 ## Building
 If you require a clean build of the application then the following instructions should help:
